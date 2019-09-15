@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="../styles/caixa.css">
+    <title>Caixa</title>
+</head>
+
+<body>
+    <div>
+    <form action="estoque.html" method="post" >
+        <input type="submit" value="Estoque" />
+    </form>
+    <form action="login.html" method="post">
+        <input type="submit" value="Sair" />
+    </form>
+</div>
+    <table>
+    <tr>
+        <th>Código</th>
+        <th>Nome do Produto</th>
+        <th>Marca</th>
+        <th>Unidade</th>
+        <th>Preço</th>
+    </tr>
+    <tr>
+        <td>001</td>
+        <td>Ração de Frango</td>
+        <td>Granplus</td>
+        <td>kg</td>
+        <td>100,00</td>
+    </tr>
+    </table>
+    <form id="form1">
+        Quantidade: <input type="number" name="qtidade" /><br><br>
+        Total: <input type="text" name="total"/><br><br>
+        Valor Recibido: <input type="text" name="valor"/><br><br>
+        Troco: <input type="text" name="troco"/><br>
+    </form>
+    <div>
+        <input type="reset" value="Limpar" /><br><br>
+        <form action="relatorio.html" method="post" >
+                <input type="submit" value="Confirma" />
+        </form>
+       
+    </div>
+</body>
+
+</html>
